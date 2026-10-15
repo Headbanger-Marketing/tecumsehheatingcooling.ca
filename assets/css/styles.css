@@ -1027,12 +1027,7 @@ img.responsive { width: 100%; height: auto; }
 .quote-consent input { width: 18px; height: 18px; flex: none; margin-top: 3px; }
 .form-status:focus { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-/* Keep the existing quote card and landing hierarchy, with a shorter form. */
-.quote-card .form-grid { gap: 10px; }
-.quote-card .field { gap: 4px; }
-.quote-card .input { padding: 11px 13px; min-height: 46px; }
-.quote-card textarea.input { min-height: 86px; }
-.quote-card .sub { margin-bottom: 12px; }
+/* Quote cards use the original visible rows and form spacing above. */
 .form-readiness { font-size: .84rem; line-height: 1.5; padding: 10px 0; }
 .form-readiness a { overflow-wrap: anywhere; text-decoration: underline; }
 [hidden] { display: none !important; }
